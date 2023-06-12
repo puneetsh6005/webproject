@@ -1,3 +1,9 @@
+body{
+  background-image: url(./4k-minimalist-mountains.jpg);
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
+
 .Tasks {
     color: black;
   }
