@@ -1,8 +1,6 @@
 body {
-  margin: 0px;
-  padding: 0px;
+  /* border: 1px solid #EDEDED; */
 }
-
 
 .t2 {
   color: #00A5EC;
@@ -46,7 +44,7 @@ body {
 
 }
 
-.a{
+a {
   text-decoration: none;
 }
 
@@ -148,7 +146,7 @@ body {
 
 }
 
-.input {
+input {
   height: 40px;
   width: 40px;
 
@@ -382,6 +380,8 @@ input1 {
       margin-bottom: 50px;
 
   }
+
+  .control,
   .control2 {
       margin-left: 0px;
       display: flex;
