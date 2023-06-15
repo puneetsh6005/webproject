@@ -44,7 +44,7 @@ body {
 
 }
 
-a {
+.a {
   text-decoration: none;
 }
 
@@ -146,7 +146,7 @@ a {
 
 }
 
-input {
+.input {
   height: 40px;
   width: 40px;
 
@@ -286,6 +286,7 @@ input1 {
   text-align: center;
 
 }
+
 .forbottoncontrol2 {
   background-color: #00A5EC;
   font-size: 18px;
@@ -307,30 +308,30 @@ input1 {
 
 /* MOBILE VIEW */
 
-@media only screen and (max-width:800px) and (min-width:100px){
+@media only screen and (max-width:800px) and (min-width:100px) {
 
   .nav {
-      font-weight: bold;
-      display: flex;
+    font-weight: bold;
+    display: flex;
 
-      font-size: 22px;
-      padding-left: 20px;
-      padding-bottom: 10px;
-      padding-top: 10px;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
 
   .content {
-      background-color: #EDEDED;
+    background-color: #EDEDED;
 
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-top: 5px;
-      margin-top: 0px;
-      margin-left: 0px;
-      box-shadow: inset 0px 0px 10px 5px rgb(211, 206, 206);
-      margin-right: 0px;
-      margin-bottom: 0px;
-      padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+    box-shadow: inset 0px 0px 10px 5px rgb(211, 206, 206);
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 2px;
 
 
   }
@@ -338,130 +339,130 @@ input1 {
 
 
   .add {
-      padding: 4px;
-      background-color: #00A5EC;
-      height: 30px;
-      width: 30px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      text-decoration: none;
-      font-size: 24px;
-      font-weight: bold;
-      text-align: center;
-      color: white;
-      border-radius: 50%;
+    padding: 4px;
+    background-color: #00A5EC;
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
   }
 
   .newText {
 
-      display: none;
+    display: none;
 
   }
 
   .box1 {
 
 
-      background-color: white;
-      height: 225px;
-      width: 235px;
-      border: 1px solid rgb(251, 249, 245);
-      color: #00A5EC;
+    background-color: white;
+    height: 225px;
+    width: 235px;
+    border: 1px solid rgb(251, 249, 245);
+    color: #00A5EC;
 
-      font-size: large;
-      border-radius: 5px;
-      margin: 5px;
+    font-size: large;
+    border-radius: 5px;
+    margin: 5px;
 
   }
 
- 
- 
+
+
 
   .allbox {
-      margin-bottom: 50px;
+    margin-bottom: 50px;
 
   }
 
   .control,
   .control2 {
-      margin-left: 0px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
   }
 
 
   /* index2.html  */
   .parentsecondpage {
-      filter: blur(5px);
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      left: -2px;
-      /* justify-content: center;
+    filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -2px;
+    /* justify-content: center;
       align-items: center;
       justify-items: center; */
 
   }
 
   .formedia {
-      display: flex;
-      justify-content: center;
-      margin: auto;
-      position: relative;
-      left: -2px;
-      align-items: center;
-      justify-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    left: -2px;
+    align-items: center;
+    justify-items: center;
   }
 
   .secondpage {
-      width: 210px;
-      position: relative;
-      bottom: 700px;
-      font-size: 14px;
-      justify-content: start;
-      height: 230px;
-      padding: 4px;
-      border-radius: 15px;
-      left: 5px;
-      background-color: white;
+    width: 210px;
+    position: relative;
+    bottom: 700px;
+    font-size: 14px;
+    justify-content: start;
+    height: 230px;
+    padding: 4px;
+    border-radius: 15px;
+    left: 5px;
+    background-color: white;
 
   }
 
   .sline1 {
-      justify-content: space-between;
-      display: flex;
-      padding: 15px;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
   }
 
   .secondin {
-      width: 90%;
-      position: relative;
-      margin: 10px;
+    width: 90%;
+    position: relative;
+    margin: 10px;
   }
 
   .sbottom {
-      background-color: #00A5EC;
-      font-size: 14px;
-      justify-content: end;
-      width: 70px;
-      padding: 10px;
-      position: relative;
-      left: 115px;
-      justify-content: end;
-      align-items: end;
-      color: white;
-      height: 10px;
+    background-color: #00A5EC;
+    font-size: 14px;
+    justify-content: end;
+    width: 70px;
+    padding: 10px;
+    position: relative;
+    left: 115px;
+    justify-content: end;
+    align-items: end;
+    color: white;
+    height: 10px;
 
-      margin-top: 10px;
-      margin-bottom: 20px;
-      text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
   }
 
   .sendbotton {
-      justify-content: flex-end;
-      align-items: end;
+    justify-content: flex-end;
+    align-items: end;
 
   }
 
@@ -469,72 +470,72 @@ input1 {
 
 
   .thContent {
-      width: 65%;
-      position: relative;
+    width: 65%;
+    position: relative;
 
-      left: 0px;
-      display: flex;
-      /* justify-items: center; */
-      /* justify-content: space-between; */
-      top: 10px;
+    left: 0px;
+    display: flex;
+    /* justify-items: center; */
+    /* justify-content: space-between; */
+    top: 10px;
 
   }
 
   .thback {
-      font-size: 24px;
-      height: 80px;
-      padding-left: 15px;
+    font-size: 24px;
+    height: 80px;
+    padding-left: 15px;
 
-      padding-top: 10px;
-      text-decoration: none;
-      /* width: 180px; */
-      color: black;
-      /* text-align: center; */
+    padding-top: 10px;
+    text-decoration: none;
+    /* width: 180px; */
+    color: black;
+    /* text-align: center; */
   }
 
   .thnew {
-      position: relative;
-      top: 0;
+    position: relative;
+    top: 0;
   }
 
   .thbox1 {
-      position: relative;
-      left: 20px;
-      margin-top: -10px;
-      height: 225px;
+    position: relative;
+    left: 20px;
+    margin-top: -10px;
+    height: 225px;
 
-      /* margin: 0px auto 300px auto; */
-      margin-bottom: 300px;
-      width: 65%;
+    /* margin: 0px auto 300px auto; */
+    margin-bottom: 300px;
+    width: 65%;
   }
 
   .fornewmedia {
-      display: flex;
-      justify-content: center;
-      margin-left: 3vw;
-      margin-right: -3vw;
-      flex-direction: column;
-      margin-bottom: 500px;
+    display: flex;
+    justify-content: center;
+    margin-left: 3vw;
+    margin-right: -3vw;
+    flex-direction: column;
+    margin-bottom: 500px;
   }
 
   .formedia3 {
-      position: relative;
-      left: -1px;
-      right: -200px;
+    position: relative;
+    left: -1px;
+    right: -200px;
   }
 
   .sub3,
   .sub5 {
-      display: none;
+    display: none;
   }
 
   .new {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 35px;
-      padding-left: 45px !important;
-      text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    padding-left: 45px !important;
+    text-decoration: none;
 
   }
 
