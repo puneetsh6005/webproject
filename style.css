@@ -1,4 +1,4 @@
-body {
+.body {
   /* border: 1px solid #EDEDED; */
 }
 
@@ -139,8 +139,7 @@ body {
 
 }
 
-.control,
-.control2 {
+.control-control2 {
   margin-left: 80px;
   display: flex;
 
@@ -382,8 +381,7 @@ input1 {
 
   }
 
-  .control,
-  .control2 {
+  .control-control2 {
     margin-left: 0px;
     display: flex;
     justify-content: center;
@@ -524,8 +522,7 @@ input1 {
     right: -200px;
   }
 
-  .sub3,
-  .sub5 {
+  .sub3-sub5 {
     display: none;
   }
 
